@@ -1,0 +1,78 @@
+#_wellc_root {
+  -fx-background-color: linear-gradient(
+    to top right,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+}
+
+#_topic {
+  -fx-font-size: 50;
+  -fx-fill: white;
+  -fx-font-weight: 800;
+}
+
+#_moto {
+  -fx-font-size: 26;
+  -fx-fill: white;
+  -fx-font-weight: 700;
+}
+
+#_version {
+  -fx-font-size: 16;
+  -fx-fill: white;
+  -fx-font-weight: 500;
+}
+
+#_info_box {
+  -fx-background-color: linear-gradient(
+    to bottom right,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+  -fx-border-color: white;
+}
+
+#_text1,
+#_text2,
+#_text3,
+#_text0 {
+  -fx-font-size: 20;
+  -fx-fill: white;
+  -fx-font-weight: 400;
+}
+
+.button:hover {
+  -fx-translate-y: -4;
+}
+
+.button:armed {
+  -fx-translate-y: 0;
+}
+
+#_play_btn {
+  -fx-background-color: rgba(8, 13, 131, 1);
+  -fx-padding: 6 6 6 6;
+  -fx-font-size: 30;
+  -fx-font-weight: 700;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+  -fx-border-radius: 25;
+}
+
+#_play_btn:hover {
+  -fx-background-color: rgba(6, 65, 228, 0.765);
+}
+
+#_cont_btn,
+#_about_btn {
+  -fx-background-color: rgba(8, 12, 131, 0.213);
+  -fx-padding: 6 6 6 6;
+  -fx-font-size: 16;
+  -fx-font-weight: 600;
+  -fx-text-fill: white;
+}
+#_cont_btn:hover,
+#_about_btn:hover {
+  -fx-background-color: rgba(8, 12, 131, 0.734);
+}

@@ -1,0 +1,43 @@
+#_game_board {
+  -fx-background-color: linear-gradient(
+    to top right,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+}
+
+#_player {
+  -fx-pref-width: 200;
+  -fx-pref-height: 30;
+  -fx-text-fill: rgb(3, 6, 111);
+  -fx-font-size: 25;
+  -fx-font-weight: 700;
+}
+
+#data_label {
+  -fx-font-size: 20px;
+  -fx-fill: white;
+  -fx-font-weight: 600;
+}
+
+#data_btn {
+  -fx-background-color: rgba(8, 13, 131, 1);
+  -fx-padding: 6 6 6 6;
+  -fx-font-size: 20;
+  -fx-font-weight: 500;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+  -fx-border-radius: 25;
+  -fx-pref-width: 250;
+}
+
+#data_btn:hover {
+  -fx-background-color: rgba(6, 65, 228, 0.765);
+}
+
+.data_field {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-border-color: rgb(255, 0, 242);
+  -fx-border-radius: 34px;
+}

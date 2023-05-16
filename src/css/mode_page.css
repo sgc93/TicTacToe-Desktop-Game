@@ -1,0 +1,48 @@
+#_mode_root {
+  -fx-background-color: linear-gradient(
+    to top right,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+  -fx-padding: 10px 6px 6px 10px;
+}
+
+#_vbox {
+  -fx-background-color: linear-gradient(
+    to top left,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+}
+
+.mode_btn {
+  -fx-background-color: rgba(8, 13, 131, 1);
+  -fx-padding: 6 6 6 6;
+  -fx-font-size: 20;
+  -fx-font-weight: 500;
+  -fx-text-fill: white;
+  -fx-border-color: transparent;
+  -fx-border-radius: 25;
+  -fx-pref-width: 350;
+}
+
+.mode_btn:hover {
+  -fx-background-color: rgba(6, 65, 228, 0.765);
+}
+
+.mode_btn:armed {
+  -fx-background-color: rgb(4, 17, 98);
+}
+
+#_back_btn {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-font-size: 20;
+  -fx-font-weight: 700;
+}
+
+#_back_btn:hover {
+  -fx-background-color: rgba(17, 0, 255, 0.353);
+  -fx-border-color: rgb(3, 3, 69);
+  -fx-border-width: 0 0 0 4px;
+}

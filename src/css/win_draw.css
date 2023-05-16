@@ -1,0 +1,28 @@
+#_ok_btn {
+  -fx-pref-width: 100;
+  -fx-pref-height: 16;
+  -fx-background-color: rgb(0, 5, 93);
+  -fx-text-fill: White;
+  -fx-font-size: 16;
+  -fx-font-weight: 700;
+}
+
+#_ok_btn:hover {
+  -fx-translate-y: -4;
+  -fx-background-color: rgba(0, 187, 255, 0.836);
+}
+
+#_ok_btn:armed {
+  -fx-translate-y: 0;
+  -fx-background-color: rgba(0, 5, 93);
+}
+
+#_game_over {
+  -fx-fill: white;
+  -fx-font-size: 16;
+  -fx-font-weight: 700;
+}
+
+#error_root {
+  -fx-background-color: rgba(32, 71, 160, 0.487);
+}

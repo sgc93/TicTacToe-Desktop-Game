@@ -1,0 +1,38 @@
+#_game_board {
+  -fx-background-color: linear-gradient(
+    to top right,
+    rgba(0, 224, 255, 1),
+    rgba(255, 0, 229, 1)
+  );
+}
+
+.board_btn {
+  /* -fx-background-color: rgb(17, 255, 0); */
+  -fx-text-fill: rgb(3, 6, 111);
+  -fx-font-size: 60;
+  -fx-font-weight: 700;
+}
+
+#_name,
+#_mark,
+#_move,
+#_pro {
+  -fx-font-size: 20px;
+  -fx-fill: white;
+  -fx-font-weight: 600;
+}
+
+#data_label {
+  -fx-pref-width: 100;
+  -fx-pref-height: 30;
+  -fx-text-fill: rgb(3, 6, 111);
+  -fx-font-size: 20;
+  -fx-font-weight: 700;
+}
+#_turn_label {
+  -fx-pref-width: 200;
+  -fx-pref-height: 30;
+  -fx-text-fill: rgb(3, 6, 111);
+  -fx-font-size: 25;
+  -fx-font-weight: 700;
+}
