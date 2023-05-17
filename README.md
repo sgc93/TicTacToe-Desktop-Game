@@ -12,4 +12,4 @@ some details :-
     </ul>
     
  ## links
- <a href=""> Project Board </a>     |     <a href="https://www.figma.com/file/BE5NMmUz4RuQGs6Sjb58FY/TicTacToe?type=design&node-id=0%3A1&t=gmw5LRAcqM3FLeHX-1"> UI Design (Figma design) </a>    |    <a href="https://github.com/sgc93/TicTacToe-Desktop-Game/tree/main/src"> Implementation </a>
+ <a href="https://github.com/users/sgc93/projects/2"> Project Board </a>     |     <a href="https://www.figma.com/file/BE5NMmUz4RuQGs6Sjb58FY/TicTacToe?type=design&node-id=0%3A1&t=gmw5LRAcqM3FLeHX-1"> UI Design (Figma design) </a>    |    <a href="https://github.com/sgc93/TicTacToe-Desktop-Game/tree/main/src"> Implementation </a>
